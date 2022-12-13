@@ -9,7 +9,7 @@ const CartItem = ({ id, title, imgUrl, price, amount }) => {
       <div className="col">
         <img src={imgUrl} alt={title} className="img-fluid" />
         <h3 className="my-2">{title}</h3>
-        <p>{price}</p>
+        <p>${price}</p>
         <div className="d-grid">
           <button
             className="btn btn-danger  text-center"
