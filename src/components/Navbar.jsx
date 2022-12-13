@@ -25,7 +25,7 @@ const Navbar = () => {
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <a className="nav-link" href="#">
-                {amount}
+                Items in cart : {amount}
               </a>
             </li>
           </ul>
